@@ -25,7 +25,7 @@ var gist_obj = function (url, language, description) {
 //Code borrowed from MDN tutorial on Ajax : https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started 
 //Gets gists from Github and outputs them to the webpage.
 function getGit() {
-    var clear_ node = document.getElementById("outPut"); //attempt to clear previous search.... didn't work but ran out of time
+    //var clear_ node = document.getElementById("outPut"); //attempt to clear previous search.... didn't work but ran out of time
     var GetpgCount = document.getElementById("range");
     var pgCount = GetpgCount.options[GetpgCount.selectedIndex].value; //syntax to get select tag value from http://stackoverflow.com/questions/1085801/get-selected-value-of-dropdownlist-using-javascript
     while (pgCount > 0) {
